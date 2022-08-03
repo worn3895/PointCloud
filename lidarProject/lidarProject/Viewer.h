@@ -10,8 +10,7 @@ public:
 	void tem2DViewer();
 
 private:
-	int mSize;
+	int mSize; 
 	Controller* mController;
-	Point* mPoints;
+	Point *mPoints = new Point[mSize];
 };
-
